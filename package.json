@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-web-authentification-system",
+  "version": "1.0.0",
+  "description": "NodeJS Web Authentification Sytem with encryption.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/science-math-guy/nodejs-web-authentification-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/science-math-guy/nodejs-web-authentification-system/issues"
+  },
+  "homepage": "https://github.com/science-math-guy/nodejs-web-authentification-system#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.17",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
